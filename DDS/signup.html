@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="stylesheet" href="/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <h1 class="titulo">Bem Vindo!</h1>
+
+  <form class="formulario" action="process-signup.php" method="post">
+    <h2 class="subtitulo"> Cadastre-se</h2>
+
+    <div>
+      <label class='Formt' for="name">Nome</label>
+      <input class='Formi' placeholder="Insira seu Nome" type="text" id="name" name="name">
+    </div>
+
+    <div>
+      <label class='Formt' for="email">Email</label>
+      <input class='Formi' placeholder="Insira seu Email" type="email" id="email" name="email">
+    </div>
+
+    <div>
+      <label class='Formt' for="password">Senha</label>
+      <input class='Formi' placeholder="Insira sua Senha"type="password" id="password" name="password">
+    </div>
+
+    <div>
+      <label class='Formt' for="password_confirmation">Confirme a Senha</label>
+      <input class='Formi' placeholder="Repita a Senha" type="password" id="password_confirmation" name="password_confirmation">
+    </div>
+
+    <button class="btncadastro">Cadastrar-se</button>
+
+  </form>
+  
+</body>
+</html>
