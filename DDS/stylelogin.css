@@ -37,7 +37,7 @@ body {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   width: 60vh;
-  height: 65vh;
+  height: 50vh;
   background: #F1E8DF;
   box-shadow: 0 0 10px rgba(0, 0, 0, .5);
   border-top-right-radius: 10px;
@@ -53,7 +53,7 @@ body {
 
 .formulario input {
   width: 95%;
-  height: 100%;
+  height: 10%;
   background: transparent;
   border: none;
   outline: none;
@@ -66,10 +66,6 @@ body {
   border-bottom: 2px solid #fff;
 }
 
-p {
-  font-size: small;
-}
-
 a {
   text-decoration: none;
   color: black;
@@ -80,7 +76,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.btncadastro {
+.btnlogin {
   width: 50%;
   height: 45px;
   margin: 15px;
@@ -93,4 +89,12 @@ a:hover {
   color: black;
   font-weight: 500;
   box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+em {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
