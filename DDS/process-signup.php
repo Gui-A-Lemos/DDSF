@@ -16,7 +16,7 @@ if ( ! preg_match("/[a-z]/i", $_POST["password"])) {
     die("Senha deve conter uma letra");
 }
 
-if ( ! preg_match("/[0-9]/i", $_POST["password"])) {
+if ( ! preg_match("/[0-9]/", $_POST["password"])) {
   die("Senha deve conter um número");
 }
 
